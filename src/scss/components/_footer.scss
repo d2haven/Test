@@ -1,0 +1,25 @@
+.site-footer{
+    background-color: #00A1FF;
+    text-align: center;
+    .footer-title{
+        color: #fff;
+        font-size: 56px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 56px;
+        font-family: "Roboto",sans-serif;
+        padding: 71px 0 20px;
+    }
+    .footer-button{
+        border-radius: 6px;
+        background: #FFF;
+        color: #00A1FF;
+        text-align: center;
+        font-family: "Roboto",sans-serif;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 20px; 
+        margin: 71px 0;
+    }
+}

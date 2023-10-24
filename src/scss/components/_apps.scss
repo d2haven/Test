@@ -1,0 +1,77 @@
+
+.app-info-boxes{
+    
+    .app-title{
+        color: var(--grey-1000, #1F262E);
+        text-align: center;
+        font-family: "Roboto",sans-serif;
+        font-size: 56px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 56px; /* 100% */
+        padding: 100px 85px;
+    }
+    .img-box-container{
+        padding-bottom: 85px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        max-width: 760px;
+        margin: 0 auto;
+            &:nth-child(2n){
+               flex-direction: row-reverse;
+                .app-img{
+                    text-align: left;
+                }
+            }
+        .app-content {
+            display: flex;
+            flex-direction: column;
+            text-align: left;
+            justify-content: center;
+                h3{
+                    color: var(--grey-1000, #1F262E);
+                    font-family: "Roboto",sans-serif;
+                    font-size: 32px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 40px; /* 125% */
+                    padding-bottom: 20px;
+                }
+                span{
+                    color: var(--grey-500-default, #8F9BB3);
+                    font-family: "Roboto",sans-serif;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 24px; /* 150% */
+                    padding-bottom: 20px;
+                }
+                .app-button{
+                    border-radius: 6px;
+                    background: var(--primary-500-default, #00A1FF);
+                    padding: 8px;
+                    font-size: 13px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 20px; 
+                    color: #fff;
+                    font-family: "Roboto",sans-serif;
+                    max-width: 105px;
+                    
+                }
+        }
+    }
+    .app-img{
+        text-align: right;
+    }
+}
+
+@media screen and (max-width:767px) {
+     .app-content{
+       padding-bottom: 50px;
+       text-align: center!important;
+       align-items: center;
+    }
+}
